@@ -1,4 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .App {
-  text-align: center;
   display: flex;
+  background-color: coral;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: rgb(207, 207, 207);
+}
+
+.mainContent {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

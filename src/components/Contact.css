@@ -1,0 +1,37 @@
+.wrapper {
+    background-color: coral;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 1px white solid;
+}
+
+.content {
+    /* background-color: red; */
+    flex: 1;
+}
+
+.name, .email {
+    margin-top: 5px;
+}
+
+.name {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.name:hover {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: whitesmoke;
+}
+

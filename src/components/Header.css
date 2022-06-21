@@ -1,0 +1,14 @@
+h1 {
+    color: brown;
+    margin: 15px 0;
+}
+
+h4 {
+    color: chocolate;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+hr {
+	border: 1.5px solid chocolate;
+}
